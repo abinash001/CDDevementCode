@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "codepath.apps.Myapps"
+        minSdkVersion 8
+        targetSdkVersion 25
+                
+    }
+
+//comment to check ---1st time----in 2017/feb/22----2nd time-- -3rd time---4th  time
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile files('libs/android-async-http-1.4.3.jar')
+}
