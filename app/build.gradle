@@ -11,7 +11,7 @@ android {
                 
     }
 
-//comment to check ---1st time----in 2017/feb/22----2nd time-- -3rd time---4th  time
+//comment to check --1st time
 
     buildTypes {
         release {
