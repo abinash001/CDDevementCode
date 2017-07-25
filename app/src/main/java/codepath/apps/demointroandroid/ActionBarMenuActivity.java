@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 public class ActionBarMenuActivity extends Activity {
-	//showing test demo
+	//showing demo for Code Deployment
 
 	@SuppressLint("NewApi")
 	@Override
